@@ -7,7 +7,7 @@ public class Clear : MonoBehaviour {
 
 	[SerializeField] Text ClearText;
 
-	void ClearAppear() {
+	public void ClearAppear() {
 		ClearText.enabled = true;
 	}
 }

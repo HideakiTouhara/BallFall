@@ -7,7 +7,7 @@ public class GameOver : MonoBehaviour {
 
 	[SerializeField] Text GameOverText;
 
-	void GameOverFunction() {
+	void OnTriggerEnter(Collider other) {
 		GameOverText.enabled = true;
 	}
 }
